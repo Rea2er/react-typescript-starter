@@ -1,6 +1,6 @@
-const OFF = 0
-const WARN = 1
-const ERROR = 2
+const OFF = 0;
+const WARN = 1;
+const ERROR = 2;
 
 module.exports = {
   env: {
@@ -15,6 +15,10 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:promise/recommended',
     'plugin:@typescript-eslint/recommended',
+    'prettier',
+    'prettier/@typescript-eslint',
+    'prettier/react',
+    'prettier/unicorn',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -44,4 +48,4 @@ module.exports = {
       },
     },
   },
-}
+};
